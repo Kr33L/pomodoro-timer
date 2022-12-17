@@ -1,0 +1,35 @@
+:root {
+	/* Colors */
+	--color-primary: #000000;
+	/* Guidelines */
+	/* Font sizes */
+	/* Font weights */
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {
+	display: none;
+}
+/* utility classes */
+
+.f {
+	display: flex;
+}
+
+.f-col {
+	flex-direction: column;
+}
+
+.f-row {
+	flex-direction: row;
+}
+
+.f-center {
+	justify-content: center;
+	align-items: center;
+}
